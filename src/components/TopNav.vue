@@ -1,0 +1,7 @@
+<template>
+    <div class="d-flex bd-highlight">
+        <div class="p-2 flex-grow-1 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Third flex item</div>
+    </div>
+</template>
