@@ -1,6 +1,8 @@
 <template>
     <div class="d-flex bd-highlight topbar-ml-1 topbar-mr-1">
-        <div class="p-2 flex-grow-1 bd-highlight">Flex item</div>
+        <div class="p-2 flex-grow-1 bd-highlight">
+            <img :src="`${imageUrl}icons/Latex-Carrot-icon.png`" class="logo"/>
+        </div>
         <div class="p-2 bd-highlight">
             <a href="#" class="topbar-text-1">+996 555 123 456</a>
         </div>
@@ -13,7 +15,20 @@
         </div>
     </div>
 </template>
-<style scoped>
+<script>
+export default{
+    data(){
+        return {
+            imageUrl : process.env.VUE_APP_BASE_URL_IMAGE
+        }
+    }
+}
+</script>
+<style>
+  .logo{
+      width:22px !important;
+      height:22px !important;
+  }
   .topbar-text{
     font:13px ProximaNovaA-Regular;
     color: #666;
@@ -36,4 +51,4 @@
     text-decoration:none;
     color: #0F9D58;
   }
-</style>
+<tex-Carrot-icon.png/style>
